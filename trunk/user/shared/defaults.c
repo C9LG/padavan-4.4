@@ -233,8 +233,8 @@ struct nvram_pair router_defaults[] = {
 	{ "wl_HT_MpduDensity", "5" },
 	{ "wl_HT_AutoBA", "1" },
 	{ "wl_VgaClamp", "0" },
-	{ "wl_KickStaRssiLow", "0" },
-	{ "wl_AssocReqRssiThres", "0" },
+	{ "wl_KickStaRssiLow", "-80" },
+	{ "wl_AssocReqRssiThres", "-75" },
 
 	// guest AP 5Ghz
 	{ "wl_guest_enable", "0" },
@@ -337,8 +337,8 @@ struct nvram_pair router_defaults[] = {
 #endif
 	{ "rt_HT_AutoBA", "1" },
 	{ "rt_VgaClamp", "0" },
-	{ "rt_KickStaRssiLow", "0" },
-	{ "rt_AssocReqRssiThres", "0" },
+	{ "rt_KickStaRssiLow", "-80" },
+	{ "rt_AssocReqRssiThres", "-75" },
 
 	// guest AP 2.4Ghz
 	{ "rt_guest_enable", "0" },
